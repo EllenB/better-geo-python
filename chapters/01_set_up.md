@@ -8,6 +8,14 @@ Python needs to be installed and the [Anaconda distribution](https://www.anacond
 
 ![Alt text](../images/anaconda_02.png)
 
+The registration can be skipped:
+
+![Alt text](../images/anaconda_04.png)
+
+After which you get the following page where you ...
+
+
+
 ### Visual Studio Code
 
 [Visual Studio Code](https://code.visualstudio.com/) which is a code editor. Alternatives are (among others) [Notepad++](https://notepad-plus-plus.org/), [Sublime Text](https://www.sublimetext.com/), [Vim](https://www.vim.org/), etc. 

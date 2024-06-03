@@ -16,6 +16,12 @@ After which you get the following page where you select the Windows installer:
 
 ![Alt text](../images/anaconda_05.png)
 
+Click on the installer that has been downloaded on your computer:
+
+The following screens opens:
+
+Click on next and accept the licence agreement:
+
 
 
 ### Visual Studio Code

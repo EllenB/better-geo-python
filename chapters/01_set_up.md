@@ -13,7 +13,7 @@ From the Visual Studio website, click on the download button:
 ![Alt text](../images/img_vscode_02.png)
 
 The following screen shows up from which you can choose the Windows version:
-![Alt text](../images/img_vscode_03.png)
+![Alt text](../images/img_vscode_04.png)
 
 
 ### Github 

@@ -4,18 +4,16 @@
 
 ### Anaconda
 
-Python needs to be installed and the [Anaconda distribution](https://www.anaconda.com/) is chosen. Rather than going for the full installation, you can install mini conda instead. 
+Python needs to be installed and the [Anaconda distribution](https://www.anaconda.com/) is chosen as the distribution. You can either proceed by downloading the full installation or the restriced version (miniconda). Here, we choose to download the full version. 
 
 ### Visual Studio Code
 
-[Visual Studio Code](https://code.visualstudio.com/) which is a code editor. Alternatives are (among others) Notepad++, Sublime Text, Atom, etc. However, Visual Studio Code is chosen because currently it is the most used code editor.
-
+[Visual Studio Code](https://code.visualstudio.com/) which is a code editor. Alternatives are (among others) [Notepad++](https://notepad-plus-plus.org/), [Sublime Text](https://www.sublimetext.com/), [Vim](https://www.vim.org/), etc. 
 From the Visual Studio website, click on the download button:
+![Alt text](../images/img_vscode_02.png)
 
-![Alt text](images/img_vscode_02.png)
-
-
-
+The following screen shows up from which you can choose the Windows version:
+![Alt text](../images/img_vscode_03.png)
 
 
 ### Github 

@@ -22,7 +22,7 @@ The following screens opens:
 
 Click on next and accept the licence agreement:
 
-
+To check the installation, go to the Windows button and ...: 
 
 ### Visual Studio Code
 

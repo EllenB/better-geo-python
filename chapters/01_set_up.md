@@ -12,6 +12,8 @@ Python needs to be installed and the [Anaconda distribution](https://www.anacond
 
 From the Visual Studio website, click on the download button:
 
+![Alt text](images/img_vscode_02.png)
+
 
 
 

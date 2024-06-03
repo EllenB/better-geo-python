@@ -12,7 +12,9 @@ The registration can be skipped:
 
 ![Alt text](../images/anaconda_04.png)
 
-After which you get the following page where you ...
+After which you get the following page where you select the Windows installer:
+
+![Alt text](../images/anaconda_05.png)
 
 
 

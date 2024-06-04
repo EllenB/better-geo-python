@@ -36,6 +36,6 @@ The following screen shows up from which you can choose the Windows version:
 
 ### Github 
 
-First you need to sign up for an account in Github.
+First you need to sign up for an account in Github. Navigate to the following website and sign up: 
 
 Download git bash from this link: https://www.git-scm.com/downloads

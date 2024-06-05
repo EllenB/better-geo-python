@@ -40,7 +40,7 @@ To check the installation, go to the Windows button and ...:
 
 ![Alt text](../images/ch_01_anaconda_15.PNG)
 
-![Alt text](../images/ch_01_anaconda_16.png)
+![Alt text](../images/ch_01_anaconda_16.PNG)
 
 ![Alt text](../images/ch_01_anaconda_17.PNG)
 

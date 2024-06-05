@@ -6,15 +6,15 @@
 
 Python needs to be installed and the [Anaconda distribution](https://www.anaconda.com/) is chosen as the distribution. You can either proceed by downloading the full installation or the restriced version (miniconda). Here, we choose to download the full version. 
 
-![Alt text](../images/anaconda_02.png)
+![Alt text](../images/ch_01_anaconda_02.png)
 
 The registration can be skipped:
 
-![Alt text](../images/anaconda_04.png)
+![Alt text](../images/)
 
 After which you get the following page where you select the Windows installer:
 
-![Alt text](../images/anaconda_05.png)
+![Alt text](../images/ch_01_anaconda_04.png)
 
 Click on the installer that has been downloaded on your computer:
 

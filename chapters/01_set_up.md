@@ -8,25 +8,41 @@ Python needs to be installed and the [Anaconda distribution](https://www.anacond
 
 ![Alt text](../images/ch_01_anaconda_02.png)
 
-The registration can be skipped:
-
-![Alt text](../images/)
-
 After which you get the following page where you select the Windows installer:
 
 ![Alt text](../images/ch_01_anaconda_04.png)
 
 Click on the Windows installer:
 
-![Alt text](../images/ch_01_anaconda_06.png)
+![Alt text](../images/ch_01_anaconda_06.PNG)
 
 The following screens opens:
 
-![Alt text](../images/ch_01_anaconda_07.png)
+![Alt text](../images/ch_01_anaconda_07.PNG)
 
 Click on next and accept the licence agreement:
 
 To check the installation, go to the Windows button and ...: 
+
+![Alt text](../images/ch_01_anaconda_08.PNG)
+
+![Alt text](../images/ch_01_anaconda_09.PNG)
+
+![Alt text](../images/ch_01_anaconda_10.PNG)
+
+![Alt text](../images/ch_01_anaconda_11.PNG)
+
+![Alt text](../images/ch_01_anaconda_12.PNG)
+
+![Alt text](../images/ch_01_anaconda_13.PNG)
+
+![Alt text](../images/ch_01_anaconda_14.PNG)
+
+![Alt text](../images/ch_01_anaconda_15.PNG)
+
+![Alt text](../images/ch_01_anaconda_16.png)
+
+![Alt text](../images/ch_01_anaconda_17.PNG)
 
 ### Visual Studio Code
 

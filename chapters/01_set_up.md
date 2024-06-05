@@ -16,9 +16,13 @@ After which you get the following page where you select the Windows installer:
 
 ![Alt text](../images/ch_01_anaconda_04.png)
 
-Click on the installer that has been downloaded on your computer:
+Click on the Windows installer:
+
+![Alt text](../images/ch_01_anaconda_06.png)
 
 The following screens opens:
+
+![Alt text](../images/ch_01_anaconda_07.png)
 
 Click on next and accept the licence agreement:
 

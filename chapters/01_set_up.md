@@ -2,51 +2,27 @@
 
 ## Windows
 
+The materials for the download and set-up below build on the excellent [lecture of Quisheng Wu on Youtube](https://www.youtube.com/playlist?list=PLAxJ4-o7ZoPcD-6wZ2xY5bXuu48Scu8kq) for the course [Geographic Software Design](). 
+
 ### Anaconda
 
-Python needs to be installed and the [Anaconda distribution](https://www.anaconda.com/) is chosen as the distribution. You can either proceed by downloading the full installation or the restriced version (miniconda). Here, we choose to download the full version. 
+Python needs to be installed and the [Anaconda distribution](https://www.anaconda.com/) is chosen as the distribution. You can either proceed by downloading the [full installation](https://www.anaconda.com/) by selection the **Free Download** button and follow the steps below: 
 
 ![Alt text](../images/ch_01_anaconda_02.png)
 
-After which you get the following page where you select the Windows installer:
 
-![Alt text](../images/ch_01_anaconda_04.png)
+Or, you can download the restricted version ([Miniconda](https://www.anaconda.com/)). Here, we choose to download the restricted version. The reason for doing so is that this program requires less disk space in comparison to the full installation. The full Anaconda distribution comes already with some [packages pre-installed](https://docs.anaconda.com/free/anaconda/pkg-docs/) such as scikit-learn (machine learning), some visualisation packages (seaborn, matplotlib, etc), etc but these will also be installed using the Miniconda installation.  Some of the geospatial packages we will install are already bundled in one package as we will see below (and this may potentially result in some conflicts if the full Anaconda version is used). 
 
-Click on the Windows installer:
+However, the set-up for Anaconda and Miniconda is very similar so the screenshots below can also be used for the settings for the full Anaconda installation.
 
-![Alt text](../images/ch_01_anaconda_06.PNG)
 
-The following screens opens:
+![Alt text](../images/ch_01_anaconda_02.png)
 
-![Alt text](../images/ch_01_anaconda_07.PNG)
-
-Click on next and accept the licence agreement:
-
-To check the installation, go to the Windows button and ...: 
-
-![Alt text](../images/ch_01_anaconda_08.PNG)
-
-![Alt text](../images/ch_01_anaconda_09.PNG)
-
-![Alt text](../images/ch_01_anaconda_10.PNG)
-
-![Alt text](../images/ch_01_anaconda_11.PNG)
-
-![Alt text](../images/ch_01_anaconda_12.PNG)
-
-![Alt text](../images/ch_01_anaconda_13.PNG)
-
-![Alt text](../images/ch_01_anaconda_14.PNG)
-
-![Alt text](../images/ch_01_anaconda_15.PNG)
-
-![Alt text](../images/ch_01_anaconda_16.PNG)
-
-![Alt text](../images/ch_01_anaconda_17.PNG)
 
 ### Visual Studio Code
 
 [Visual Studio Code](https://code.visualstudio.com/) which is a code editor. Alternatives are (among others) [Notepad++](https://notepad-plus-plus.org/), [Sublime Text](https://www.sublimetext.com/), [Vim](https://www.vim.org/), etc. 
+
 From the Visual Studio website, click on the download button:
 ![Alt text](../images/img_vscode_02.png)
 

@@ -12,12 +12,13 @@ Python needs to be installed and the [Anaconda distribution](https://www.anacond
 
 You can select the **Skip registration**:
 
+![Alt text](../images/ch_01_anaconda_04.png)
+
 After which the download page will open.
 
 Alternatively, you can download the restricted version ([Miniconda](https://www.anaconda.com/)). Here, we choose to download the restricted version. The reason for doing so is that this program requires less disk space in comparison to the full installation. The full Anaconda distribution comes already with some [packages pre-installed](https://docs.anaconda.com/free/anaconda/pkg-docs/) such as scikit-learn (machine learning), some visualisation packages (seaborn, matplotlib, etc), etc but these will also be installed using the Miniconda installation.  Some of the geospatial packages we will install are already bundled in one package as we will see below (and this may potentially result in some conflicts if the full Anaconda version is used). 
 
 However, the set-up for Anaconda and Miniconda is very similar so the screenshots below can also be used for the settings for the full Anaconda installation.
-
 
 ![Alt text](../images/ch_01_anaconda_02.png)
 

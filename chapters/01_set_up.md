@@ -107,7 +107,7 @@ conda list
 ```
 ![Alt text](../images/ch_01_miniconda_13.PNG)
 
-You can add some packages now which will add functionality to your current Python environment. Packages can be found in [pypi.org](https://pypi.org/) and in [Anaconda](https://conda-forge.org/packages/).
+You can add some packages now which will add functionality to your current Python environment. Packages can be found in [pypi.org](https://pypi.org/) and in [Anaconda](https://conda-forge.org/packages/). In what follows, we will use the the packages from the latter as they are better quality controlled. 
 
 The basic command for installing packages is:
 

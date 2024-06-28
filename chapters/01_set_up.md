@@ -149,7 +149,7 @@ gpd.__version__
 Another interesting package is the one developed by Professor Quisheng Wu called [geospatial](https://geospatial.gishub.org/installation/#using-the-conda-forge-channel). The advantage of this package is that it bundles a lot of important geospatial packages such as rasterio, xarray, etc. We can either use **mamba install** or **conda install**. Unlike in the case of the geopandas package, we can use the conda-forge channel. When using **conda install**:
 
 ```
-mamba install -c conda-forge geospatial
+conda install -c conda-forge geospatial
 ```
 ![Alt text](../images/ch_01_miniconda_16.PNG)
 

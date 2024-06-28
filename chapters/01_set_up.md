@@ -112,7 +112,7 @@ You can add some packages now which will add functionality to your current Pytho
 The basic command for installing packages is:
 
 ```
-conda install *packagename*
+conda install packagename
 ```
 
 Rather than using **conda install**, we can use **mamba install**. The reason for doing so is that sometimes using "conda install" can take a long time to resolve dependencies, so we use **mamba install** instead.
@@ -146,12 +146,63 @@ gpd.__version__
 ```
 ![Alt text](../images/ch_01_miniconda_15.PNG)
 
+If this somehow does not work with mamba install, you could experiment with the conda forge channel anyway by either using **conda install -c conda-forge geopandas**  **mamba install -c conda-forge geopandas**.
+
 Another interesting package is the one developed by Professor Quisheng Wu called [geospatial](https://geospatial.gishub.org/installation/#using-the-conda-forge-channel). The advantage of this package is that it bundles a lot of important geospatial packages such as rasterio, xarray, etc. We can either use **mamba install** or **conda install**. Unlike in the case of the geopandas package, we can use the conda-forge channel. When using **conda install**:
 
 ```
 conda install -c conda-forge geospatial
 ```
 ![Alt text](../images/ch_01_miniconda_16.PNG)
+
+Next, we also need to install a package in order to be able to use a so called "notebook". In a notebook, you simultaneously can see the code, the output of the code (including visualisation output). There are two options, one is [jupyter notebook]9https://jupyter.org/install0 and the other is [jupyter lab](). If one chooses the install jupyter notebook:
+
+```
+conda install notebook
+```
+```
+conda install -c conda-forge notebook
+```
+![Alt text](../images/ch_01_miniconda_17.PNG)
+
+Unless you want to stay in your current working directory, at this point you can change the working directory if desired before launching the jupyter notebook.
+
+Imagine you want to change to the following directory, you can type (Windows):
+
+```
+cd nameofyournewdirectory
+```
+
+![Alt text](../images/ch_01_miniconda_19.PNG)
+
+To launch the notebook, type:
+
+jupyter notebook
+
+![Alt text](../images/ch_01_miniconda_18.PNG)
+
+The following will open (assuming you have no files in this directory yet):
+
+![Alt text](../images/ch_01_miniconda_20.PNG)
+
+Open a new notebook:
+
+![Alt text](../images/ch_01_miniconda_21.PNG)
+
+To test your installation, you can e.g. import some geospatial libraries:
+
+```
+import geopandas as gpd
+import xarray
+```
+Press **Shift + Enter** to execute the cell. In the next cell, type and again press  **Shift + Enter**: 
+```
+print(gpd.__version)
+print(xr.__version)
+```
+This is the output you should get:
+
+![Alt text](../images/ch_01_miniconda_22.PNG)
 
 ### Visual Studio Code
 
@@ -162,7 +213,6 @@ From the Visual Studio website, click on the download button:
 
 The following screen shows up from which you can choose the Windows version:
 ![Alt text](../images/img_vscode_03.PNG)
-
 
 
 ### Github 

@@ -80,7 +80,7 @@ It is advisable not to use the latest version of Python (as sometimes Python pac
 conda create -n geoproject python=3.11
 ```
 
-![Alt text](../images/ch_01_miniconda_10.png)
+![Alt text](../images/ch_01_miniconda_10.PNG)
 
 Again, run the command **conda env list** to ensure that you have created the environment:
 
@@ -98,7 +98,7 @@ If we again use **conda env list**, we see that now the "geoproject" environment
 
 You can also notice this from the Miniconda prompt that looks now like this:
 
-![Alt text](../images/ch_01_miniconda_12b.PNG)
+![Alt text](../images/ch_01_miniconda_12_b.PNG)
 
 As of now, this is a "bare bones" Python setup. In order to see what packages are already installed, we can type:
 
@@ -117,7 +117,7 @@ conda install *packagename*
 
 Rather than using **conda install**, we can use **mamba install**. The reason for doing so is that sometimes using "conda install" can take a long time to resolve dependencies, so we use **mamba install** instead.
 
-First, we need to install mamba itself in the conda environment using the following command:
+First, we need to install mamba itself in the conda environment using the following command. Also, we are using a channel to do so.  In Anaconda, there are "channels" which are places where packages are stored. One important channel is the conda-forge channel which we will use the install the **mamba** package:
 
 ```
 conda install -c conda-forge mamba
@@ -125,17 +125,33 @@ conda install -c conda-forge mamba
 
 ![Alt text](../images/ch_01_miniconda_14.PNG)
 
-One useful package to deal with vector files is the **geopandas** package. Installing this package can be challenging at times and throws errors. In Anaconda, there are "channels" which are places where packages are stored. One important channel is the conda-forge channel. When using Windows, using he conda-forge channel can sometimes lead to errors ([source](https://geospatial.gishub.org/installation/#creating-a-new-conda-environment0). Hence, it is advised to install (using conda or mamba) the geopandas package as follows:
+One useful package to deal with vector files is the **geopandas** package. Installing this package can be challenging at times and throws errors. When using Windows, using he conda-forge channel can sometimes lead to errors ([source](https://geospatial.gishub.org/installation/#creating-a-new-conda-environment0). Hence, it is advised to install (using conda or mamba) the geopandas package as follows under Windows:
 
 If using **conda install**:
-
+```
 conda install geopandas
+```
 
 Or use the following command if using **mamba install**:
 
-Another interesting package is the one developed by Professor Quisheng Wu called [geospatial](https://geospatial.gishub.org/installation/#using-the-conda-forge-channel). We install that package using the following command:
+```
+mamba install geopandas
+```
 
-This should 
+Check if the installation was successful:
+```
+python
+import geopandas as gpd
+gpd.__version__
+```
+![Alt text](../images/ch_01_miniconda_15.PNG)
+
+Another interesting package is the one developed by Professor Quisheng Wu called [geospatial](https://geospatial.gishub.org/installation/#using-the-conda-forge-channel). The advantage of this package is that it bundles a lot of important geospatial packages such as rasterio, xarray, etc. We can either use **mamba install** or **conda install**. Unlike in the case of the geopandas package, we can use the conda-forge channel. When using **conda install**:
+
+```
+mamba install -c conda-forge geospatial
+```
+![Alt text](../images/ch_01_miniconda_16.PNG)
 
 ### Visual Studio Code
 

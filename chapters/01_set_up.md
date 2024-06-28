@@ -155,7 +155,7 @@ conda install -c conda-forge geospatial
 ```
 ![Alt text](../images/ch_01_miniconda_16.PNG)
 
-Next, we also need to install a package in order to be able to use a so called "notebook". In a notebook, you simultaneously can see the code, the output of the code (including visualisation output). There are two options, one is [jupyter notebook]9https://jupyter.org/install0 and the other is [jupyter lab](). If one chooses the install jupyter notebook:
+Next, we also need to install a package in order to be able to use a so called "notebook". In a notebook, you simultaneously can see the code, the output of the code (including visualisation output) and write text and equations. There are two options, one is jupyter notebook and the other is jupyter lab [source](https://jupyter.org/install). If one chooses the install jupyter notebook:
 
 ```
 conda install notebook

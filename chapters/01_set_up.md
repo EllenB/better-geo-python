@@ -36,7 +36,7 @@ Click on **Next** and accept the license agreement:
 
 ![Alt text](../images/ch_01_miniconda_05.png)
 
-Keep on clicking on **Next** and at the page of the **Advanced Installation Options", you can decide to uncheck **Add Miniconda3 to my PATH environment variable**:
+Keep on clicking on **Next** and at the page of the **Advanced Installation Options**, you can decide to uncheck **Add Miniconda3 to my PATH environment variable**:
 
 ![Alt text](../images/ch_01_miniconda_06.png)
 

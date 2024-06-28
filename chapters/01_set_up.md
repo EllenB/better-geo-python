@@ -65,7 +65,7 @@ Before creating a virtual environment, let us list the environments using the fo
 ```
 conda env list
 ```
-![Alt text](../images/ch_01_miniconda_09.png)
+![Alt text](../images/ch_01_miniconda_09.PNG)
 
 The "*" denotes that this environment is active right now. 
 
@@ -84,7 +84,7 @@ conda create -n geoproject python=3.11
 
 Again, run the command **conda env list** to ensure that you have created the environment:
 
-![Alt text](../images/ch_01_miniconda_11.png)
+![Alt text](../images/ch_01_miniconda_11.PNG)
 
 In order to use the environment, we need to invoke it using:
 
@@ -94,18 +94,18 @@ conda activate geoproject
 
 If we again use **conda env list**, we see that now the "geoproject" environment is active:
 
-![Alt text](../images/ch_01_miniconda_12.png)
+![Alt text](../images/ch_01_miniconda_12.PNG)
 
 You can also notice this from the Miniconda prompt that looks now like this:
 
-![Alt text](../images/ch_01_miniconda_12b.png)
+![Alt text](../images/ch_01_miniconda_12b.PNG)
 
 As of now, this is a "bare bones" Python setup. In order to see what packages are already installed, we can type:
 
 ```
 conda list
 ```
-![Alt text](../images/ch_01_miniconda_13.png)
+![Alt text](../images/ch_01_miniconda_13.PNG)
 
 You can add some packages now which will add functionality to your current Python environment. Packages can be found in [pypi.org](https://pypi.org/) and []().
 
@@ -123,7 +123,7 @@ First, we need to install mamba itself in the conda environment using the follow
 conda install -c conda-forge mamba
 ```
 
-![Alt text](../images/ch_01_miniconda_14.png)
+![Alt text](../images/ch_01_miniconda_14.PNG)
 
 One useful package to deal with vector files is the **geopandas** package. Installing this package can be challenging at times and throws errors. In Anaconda, there are "channels" which are places where packages are stored. One important channel is the conda-forge channel. When using Windows, using he conda-forge channel can sometimes lead to errors ([source](https://geospatial.gishub.org/installation/#creating-a-new-conda-environment0). Hence, it is advised to install (using conda or mamba) the geopandas package as follows:
 

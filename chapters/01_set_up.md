@@ -42,6 +42,21 @@ Keep on clicking on **Next** and at the page of the **Advanced Installation Opti
 
 Keep on clicking on **Next** and use the default settings and finish the installation. 
 
+In order to check the installation, type in "miniconda" in the search bar and open the **Anaconda Prompt (miniconda 3)**:
+
+![Alt text](../images/ch_01_miniconda_07.png)
+
+And type:
+```
+conda
+```
+If everything is installed properly, you should see no errors:
+
+![Alt text](../images/ch_01_miniconda_08.png)
+
+<!--- Microsoft terminal - TO ADD - Or other? --->
+
+
 ### Visual Studio Code
 
 [Visual Studio Code](https://code.visualstudio.com/) which is a code editor. Alternatives are (among others) [Notepad++](https://notepad-plus-plus.org/), [Sublime Text](https://www.sublimetext.com/), [Vim](https://www.vim.org/), etc. 
@@ -51,6 +66,7 @@ From the Visual Studio website, click on the download button:
 
 The following screen shows up from which you can choose the Windows version:
 ![Alt text](../images/img_vscode_03.PNG)
+
 
 
 ### Github 

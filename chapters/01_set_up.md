@@ -52,7 +52,7 @@ conda
 ```
 If everything is installed properly, you should see no errors:
 
-![Alt text](../images/ch_01_miniconda_08.png)
+![Alt text](../images/ch_01_miniconda_08.PNG)
 
 <!--- Microsoft terminal - TO ADD - Or other? --->
 

@@ -204,6 +204,32 @@ This is the output you should get:
 
 ![Alt text](../images/ch_01_miniconda_22.PNG)
 
+You can save this notebook:
+
+![Alt text](../images/ch_01_miniconda_23.PNG)
+
+![Alt text](../images/ch_01_miniconda_24.PNG)
+
+In order to close this jupyter server, go back to the command line and press **Ctrl + C**
+
+Alternatively, you can use jupyterlab. Use the following command to install this:
+
+```
+conda install -c conda-forge jupyterlab
+```
+To launch the code, type:
+
+```
+jupyter lab
+```
+You should get the following page where you need to click on the **Python 3 ipythonkernel**
+
+![Alt text](../images/ch_01_miniconda_25.PNG)
+
+Again you can test if everything works by importing some packages (and renaming the file):
+
+![Alt text](../images/ch_01_miniconda_26.PNG)
+
 ### Visual Studio Code
 
 [Visual Studio Code](https://code.visualstudio.com/) which is a code editor. Alternatives are (among others) [Notepad++](https://notepad-plus-plus.org/), [Sublime Text](https://www.sublimetext.com/), [Vim](https://www.vim.org/), etc. 

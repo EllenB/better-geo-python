@@ -56,6 +56,86 @@ If everything is installed properly, you should see no errors:
 
 <!--- Microsoft terminal - TO ADD - Or other? --->
 
+For an overview of the main commands, you can look at the [cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf) or the Anaconda [documentation](https://docs.conda.io/projects/conda/en/latest/commands/index.html). 
+
+One important command is the one for installing virtual environments. The reason for creating different Python environments is that each environment is separate and one can e.g. have different Python packages (more below) for each environment. It is e.g. possible to have a certain version of a Python package in one environment and another version in another environment.
+
+Before creating a virtual environment, let us list the environments using the following command:
+
+```
+conda env list
+```
+![Alt text](../images/ch_01_miniconda_09.png)
+
+The "*" denotes that this environment is active right now. 
+
+In order to create another environment, let us run the following command where "n" stands for the name:
+
+```
+conda create -n geoproject
+```
+It is advisable not to use the latest version of Python (as sometimes Python packages are not updated). At the time of writing, Python 3.12 is the latest but if we want to use version 3.11, we can write the following command and press **Enter** to actually create the environment:
+
+```
+conda create -n geoproject python=3.11
+```
+
+![Alt text](../images/ch_01_miniconda_10.png)
+
+Again, run the command **conda env list** to ensure that you have created the environment:
+
+![Alt text](../images/ch_01_miniconda_11.png)
+
+In order to use the environment, we need to invoke it using:
+
+```
+conda activate geoproject
+```
+
+If we again use **conda env list**, we see that now the "geoproject" environment is active:
+
+![Alt text](../images/ch_01_miniconda_12.png)
+
+You can also notice this from the Miniconda prompt that looks now like this:
+
+![Alt text](../images/ch_01_miniconda_12b.png)
+
+As of now, this is a "bare bones" Python setup. In order to see what packages are already installed, we can type:
+
+```
+conda list
+```
+![Alt text](../images/ch_01_miniconda_13.png)
+
+You can add some packages now which will add functionality to your current Python environment. Packages can be found in [pypi.org](https://pypi.org/) and []().
+
+The basic command for installing packages is:
+
+```
+conda install *packagename*
+```
+
+Rather than using **conda install**, we can use **mamba install**. The reason for doing so is that sometimes using "conda install" can take a long time to resolve dependencies, so we use **mamba install** instead.
+
+First, we need to install mamba itself in the conda environment using the following command:
+
+```
+conda install -c conda-forge mamba
+```
+
+![Alt text](../images/ch_01_miniconda_14.png)
+
+One useful package to deal with vector files is the **geopandas** package. Installing this package can be challenging at times and throws errors. In Anaconda, there are "channels" which are places where packages are stored. One important channel is the conda-forge channel. When using Windows, using he conda-forge channel can sometimes lead to errors ([source](https://geospatial.gishub.org/installation/#creating-a-new-conda-environment0). Hence, it is advised to install (using conda or mamba) the geopandas package as follows:
+
+If using **conda install**:
+
+conda install geopandas
+
+Or use the following command if using **mamba install**:
+
+Another interesting package is the one developed by Professor Quisheng Wu called [geospatial](https://geospatial.gishub.org/installation/#using-the-conda-forge-channel). We install that package using the following command:
+
+This should 
 
 ### Visual Studio Code
 
@@ -71,6 +151,6 @@ The following screen shows up from which you can choose the Windows version:
 
 ### Github 
 
-First you need to sign up for an account in Github. Navigate to the following website and sign up: 
+First you need to sign up for an account in Github. Navigate to the following website and sign up: https://github.com/
 
 Download git bash from this link: https://www.git-scm.com/downloads

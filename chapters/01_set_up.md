@@ -187,7 +187,7 @@ The following will open (assuming you have no files in this directory yet):
 
 Open a new notebook:
 
-![Alt text](../images/ch_01_miniconda_21.PNG)
+![Alt text](../images/ch_01_miniconda_21.png)
 
 To test your installation, you can e.g. import some geospatial libraries:
 

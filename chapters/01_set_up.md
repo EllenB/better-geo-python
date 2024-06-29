@@ -234,7 +234,7 @@ Again you can test if everything works by importing some packages (and renaming 
 
 Rather than resorting to only using the jupyter notebook or jupyter lab, it is better to work with a code editor. This allows one to build the code more modular and use a mix of "plain" python script (.py) and notebooks. Moreover, a code editor has some other advantages too such as using tools (more below) that make your code more error-free, modular, efficient and more elegant. 
 
-[Visual Studio Code](https://code.visualstudio.com/) is a code editor. Alternatives are (among others) [Notepad++](https://notepad-plus-plus.org/), [Sublime Text](https://www.sublimetext.com/), [Vim](https://www.vim.org/), etc. 
+We use [Visual Studio Code](https://code.visualstudio.com/) as a code editor. Alternatives are (among others) [Notepad++](https://notepad-plus-plus.org/), [Sublime Text](https://www.sublimetext.com/), [Vim](https://www.vim.org/), etc. 
 
 From the Visual Studio website, click on the download button:
 ![Alt text](../images/img_vscode_02.png)

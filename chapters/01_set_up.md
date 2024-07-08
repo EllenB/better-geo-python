@@ -236,11 +236,11 @@ Rather than resorting to only using the jupyter notebook or jupyter lab, it is b
 
 We use [Visual Studio Code](https://code.visualstudio.com/) as a code editor. Alternatives are (among others) [Notepad++](https://notepad-plus-plus.org/), [Sublime Text](https://www.sublimetext.com/), [Vim](https://www.vim.org/), etc. 
 
-From the Visual Studio website, click on the download button:
-![Alt text](../images/img_vscode_02.png)
+From the Visual Studio website, click on the **download** button:
+![Alt text](../images/img_vscode_01.png)
 
 The following screen shows up from which you can choose the Windows version:
-![Alt text](../images/img_vscode_03.PNG)
+![Alt text](../images/img_vscode_02.png)
 
 
 ### Github 

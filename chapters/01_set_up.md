@@ -22,7 +22,7 @@ However, the set-up for Anaconda and Miniconda is very similar so the screenshot
 
 ![Alt text](../images/ch_01_miniconda_01.png)
 
-Rather than installing the latest version (3.12 at the time of writing), sometimes it is better practice to install the previous version:
+Rather than installing the latest version (3.12 at the time of writing), version 3.11 is installed:
 
 ![Alt text](../images/ch_01_miniconda_02.png)
 

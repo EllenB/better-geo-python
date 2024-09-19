@@ -245,9 +245,57 @@ The following screen shows up from which you can choose the Windows version:
 ![Alt text](../images/img_vscode_02.png)
 
 Click on all the default settings. However, on the following page, check all the boxes:
-![Alt text](../images/img_vscode_03.png)
+![Alt text](../images/img_vscode_03.PNG)
+
+In order to open VSCode, go to the Windows prompt and start typing "VSCode" and select VSCode:
+
+![Alt text](../images/img_vscode_04.PNG)
+
+This page (or a page looking similar should open):
+
+![Alt text](../images/img_vscode_img_vscode_05_03.PNG)
+
+You can also pin the VSCode to the taskbar:
+
+![Alt text](../images/img_vscode_img_vscode_6.png)
+
+From which you can easily open VSCode by clicking on the icon:
+
+![Alt text](../images/img_vscode_img_vscode_7.png)
+
+Another way to open the code is to go to a directory of your choice from where you want to launch your project from:
+
+![Alt text](../images/img_vscode_img_vscode_8.PNG)
+
+Alternatively, you can open the **Command prompt**:
+
+![Alt text](../images/img_vscode_img_vscode_9.png)
+
+And using the **cd** (change directory) command to navigate to your folder of interest and type **code .**:
+
+![Alt text](../images/img_vscode_img_vscode_10.PNG)
+
+This results in the following screen where you can notice that the VSCode has opened in the project directory:
+
+![Alt text](../images/img_vscode_img_vscode_11.PNG)
+
+VSCode should open automatically. In case this does not happen, please follow the steps from this [Medium post](https://abhishekthatguy.medium.com/how-to-fix-visual-studio-code-with-the-terminal-code-command-not-working-95ce0f9c23a2).
+
+And one more way is to open the VSCode (e.g. from the taskbar or from the Windows start button). The following screen opens:
+
+![Alt text](../images/img_vscode_img_vscode_12.PNG)
+
+After which you need to click on the **Explorer** in the upper left. To open the same project repository from above, we can select it:
+
+![Alt text](../images/img_vscode_img_vscode_13.PNG)
+
+As a result, VSCode is in the project directory:
 
 
+
+Also notice that that there is an option to download a Github repository (more later). 
+
+Above, it was shown how to create a virtual environment from the Anaconda command prompt. However, we can also do that from within VSCode. More specifically, select the command 
 
 ### Github 
 

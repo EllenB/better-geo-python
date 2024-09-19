@@ -244,6 +244,10 @@ From the Visual Studio website, click on the **download** button:
 The following screen shows up from which you can choose the Windows version:
 ![Alt text](../images/img_vscode_02.png)
 
+Click on all the default settings. However, on the following page, check all the boxes:
+![Alt text](../images/img_vscode_03.png)
+
+
 
 ### Github 
 

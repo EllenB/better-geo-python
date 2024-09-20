@@ -291,11 +291,21 @@ After which you need to click on the **Explorer** in the upper left. To open the
 
 As a result, VSCode is in the project directory:
 
-
+![Alt text](../images/img_vscode_img_vscode_14.PNG)
 
 Also notice that that there is an option to download a Github repository (more later). 
 
-Above, it was shown how to create a virtual environment from the Anaconda command prompt. However, we can also do that from within VSCode. More specifically, select the command 
+Above, it was shown how to create a virtual environment from the Anaconda command prompt. However, we can also do that from within VSCode. More specifically, select the **Terminal/New Terminal** from the menu:
+
+![Alt text](../images/img_vscode_img_vscode_15.png)
+
+After which the following screen opens from which you have to select the **Command Prompt** from the menu in the lower right corner:
+
+![Alt text](../images/img_vscode_img_vscode_16.png)
+
+This is just one way to create a virtual environment. Other options are: [Venv](https://docs.python.org/3/library/venv.html), [Virtualenv](https://virtualenv.pypa.io/en/latest/user_guide.html), [Pyenv](https://github.com/pyenv/pyenv) and [Poetry](https://python-poetry.org/docs/managing-environments/).    
+
+For a practical example of some of the different ways, please see the [YouTube video of Krish Naik](https://www.youtube.com/watch?v=bf7pCxj6mEg) (among others).
 
 ### Github 
 

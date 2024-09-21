@@ -247,65 +247,72 @@ The following screen shows up from which you can choose the Windows version:
 Click on all the default settings. However, on the following page, check all the boxes:
 ![Alt text](../images/img_vscode_03.PNG)
 
-In order to open VSCode, go to the Windows prompt and start typing "VSCode" and select VSCode:
+In order to open VSCode, go to the Windows prompt and start typing "VSCode" and select Visual Studio Code:
 
-![Alt text](../images/img_vscode_04.PNG)
+![Alt text](../images/img_vscode_04.PNG) 
 
 This page (or a page looking similar should open):
 
-![Alt text](../images/img_vscode_img_vscode_05_03.PNG)
+![Alt text](../images/img_vscode_05_03.PNG)
 
 You can also pin the VSCode to the taskbar:
 
-![Alt text](../images/img_vscode_img_vscode_6.png)
+![Alt text](../images/img_vscode_06.png)
 
 From which you can easily open VSCode by clicking on the icon:
 
-![Alt text](../images/img_vscode_img_vscode_7.png)
+![Alt text](../images/img_vscode_07.png)
 
 Another way to open the code is to go to a directory of your choice from where you want to launch your project from:
 
-![Alt text](../images/img_vscode_img_vscode_8.PNG)
+![Alt text](../images/img_vscode_08.png)
 
 Alternatively, you can open the **Command prompt**:
 
-![Alt text](../images/img_vscode_img_vscode_9.png)
+![Alt text](../images/img_vscode_09.png)
 
 And using the **cd** (change directory) command to navigate to your folder of interest and type **code .**:
 
-![Alt text](../images/img_vscode_img_vscode_10.PNG)
+![Alt text](../images/img_vscode_10.PNG)
 
 This results in the following screen where you can notice that the VSCode has opened in the project directory:
 
-![Alt text](../images/img_vscode_img_vscode_11.PNG)
+![Alt text](../images/img_vscode_11.png)
 
 VSCode should open automatically. In case this does not happen, please follow the steps from this [Medium post](https://abhishekthatguy.medium.com/how-to-fix-visual-studio-code-with-the-terminal-code-command-not-working-95ce0f9c23a2).
 
 And one more way is to open the VSCode (e.g. from the taskbar or from the Windows start button). The following screen opens:
 
-![Alt text](../images/img_vscode_img_vscode_12.PNG)
+![Alt text](../images/img_vscode_12.png)
 
 After which you need to click on the **Explorer** in the upper left. To open the same project repository from above, we can select it:
 
-![Alt text](../images/img_vscode_img_vscode_13.PNG)
+![Alt text](../images/img_vscode_13.PNG)
 
 As a result, VSCode is in the project directory:
 
-![Alt text](../images/img_vscode_img_vscode_14.PNG)
+![Alt text](../images/img_vscode_14.PNG)
 
 Also notice that that there is an option to download a Github repository (more later). 
 
 Above, it was shown how to create a virtual environment from the Anaconda command prompt. However, we can also do that from within VSCode. More specifically, select the **Terminal/New Terminal** from the menu:
 
-![Alt text](../images/img_vscode_img_vscode_15.png)
+![Alt text](../images/img_vscode_15.png)
 
 After which the following screen opens from which you have to select the **Command Prompt** from the menu in the lower right corner:
 
-![Alt text](../images/img_vscode_img_vscode_16.png)
+![Alt text](../images/img_vscode_16.png)
 
 This is just one way to create a virtual environment. Other options are: [Venv](https://docs.python.org/3/library/venv.html), [Virtualenv](https://virtualenv.pypa.io/en/latest/user_guide.html), [Pyenv](https://github.com/pyenv/pyenv) and [Poetry](https://python-poetry.org/docs/managing-environments/).    
 
 For a practical example of some of the different ways, please see the [YouTube video of Krish Naik](https://www.youtube.com/watch?v=bf7pCxj6mEg) (among others).
+
+In order to create the virtual environmnent, you can use the command (similar to what we had typed in before in the Anaconda command prompt):
+
+```
+conda create -n geoproject python=3.11
+```
+Subsequently, you can use the same steps as the ones we have done above to install the packages. 
 
 ### Github 
 

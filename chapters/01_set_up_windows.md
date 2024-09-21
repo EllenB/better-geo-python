@@ -22,7 +22,7 @@ However, the set-up for Anaconda and Miniconda is very similar so the screenshot
 
 ![Alt text](../images/ch_01_miniconda_01.png)
 
-Rather than installing the latest version (3.12 at the time of writing), version 3.11 is installed:
+Rather than installing the latest version (3.12 at the time of writing), version 3.11 is installed as this is a safer option in case some of the packages are not updated yet:
 
 ![Alt text](../images/ch_01_miniconda_02.png)
 
@@ -36,7 +36,7 @@ Click on **Next** and accept the license agreement:
 
 ![Alt text](../images/ch_01_miniconda_05.png)
 
-Keep on clicking on **Next** and at the page of the **Advanced Installation Options**, you can decide to uncheck **Add Miniconda3 to my PATH environment variable**:
+Keep on clicking on **Next** and at the page of the **Advanced Installation Options**, you can decide to uncheck **Add Miniconda3 to my PATH environment variable**. In this example, this option is checked since when it was unchecked this created an issue that Miniconda did not work from VS Code. 
 
 ![Alt text](../images/ch_01_miniconda_06.png)
 
@@ -310,7 +310,11 @@ In order to create the virtual environmnent, you can use the command (similar to
 ```
 conda create -n geoproject python=3.11
 ```
-Subsequently, you can use the same steps as the ones we have done above to install the packages. 
+
+![Alt text](../images/img_vscode_16.png)
+
+
+Subsequently, you can use the same steps as the ones we have done above to install the packages. In case this does not work and you get the 
 
 ### Github 
 

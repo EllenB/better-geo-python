@@ -8,7 +8,7 @@ Examples will be drawn from the geospatial domain.
 
 1. Installation
 - Python
-- WSL2
+- VSCode
 - Github 
 2. Python basics
 - Cleaner Python code like linting, unit tests etc.

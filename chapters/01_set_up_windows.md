@@ -305,13 +305,13 @@ This is just one way to create a virtual environment. Other options are: [Venv](
 
 For a practical example of some of the different ways, please see the [YouTube video of Krish Naik](https://www.youtube.com/watch?v=bf7pCxj6mEg) (among others).
 
-In order to create the virtual environmnent, you can use the command (similar to what we had typed in before in the Anaconda command prompt):
+In order to create the virtual environment, you can use the command (similar to what we had typed in before in the Anaconda command prompt):
 
 ```
 conda create -n geoproject python=3.11
 ```
 
-![Alt text](../images/img_vscode_17.png)
+![Alt text](../images/img_vscode_17.PNG)
 
 
 Subsequently, you can use the same steps as the ones we have done above to install the packages. In case this does not work and you get the "Conda Not Recognized" error, you can use this [link](https://stackoverflow.com/questions/44515769/conda-is-not-recognized-as-internal-or-external-command) to try to solve this issue.

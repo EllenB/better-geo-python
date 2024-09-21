@@ -311,7 +311,7 @@ In order to create the virtual environmnent, you can use the command (similar to
 conda create -n geoproject python=3.11
 ```
 
-![Alt text](../images/img_vscode_16.png)
+![Alt text](../images/img_vscode_17.png)
 
 
 Subsequently, you can use the same steps as the ones we have done above to install the packages. In case this does not work and you get the "Conda Not Recognized" error, you can use this [link](https://stackoverflow.com/questions/44515769/conda-is-not-recognized-as-internal-or-external-command) to try to solve this issue.

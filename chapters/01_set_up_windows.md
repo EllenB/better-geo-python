@@ -342,7 +342,7 @@ In general, all the defaults can be accepted but there are a few suggestions. Si
 
 For the next steps, you can just accept the defaults after which the installation will start. When done, you can check the box "Launch Git Bash":
 
-![Alt text](../images/git_image_05.PNG)
+![Alt text](../images/git_image_05.png)
 
 After which the Git Bash will open:
 

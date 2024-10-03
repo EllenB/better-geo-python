@@ -324,11 +324,11 @@ First you need to sign up for an account in Github. Navigate to the following we
 
 Download git bash from this link: https://www.git-scm.com/downloads and select the appropriate operating system:
 
-![Alt text](../images/git_image_01.PNG)
+![Alt text](../images/git_image_01.png)
 
 And select the appropriate installation file (64 bit in my case):
 
-![Alt text](../images/git_image_02.PNG)
+![Alt text](../images/git_image_02.png)
 
 Which downloads the file on your hard disk:
 
@@ -381,7 +381,7 @@ cd /c/Ellen/personal/projects/software
 ```
 After which we go to [testrepo on Github](https://github.com/EllenB/testrepo) (which can be any GitHub repository of your choice) and copy the link under "HTPPS":
 
-![Alt text](../images/git_image_09.PNG)
+![Alt text](../images/git_image_09.png)
 
 Back in Gitbash, type:
 

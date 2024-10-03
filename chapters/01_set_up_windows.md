@@ -398,19 +398,36 @@ If you now navigate to your directory, you should see that the content of the Gi
 
 Following the [YouTube lecture of Quisheng Wu](https://www.youtube.com/watch?v=DoiAux0XYfs&list=PLAxJ4-o7ZoPcD-6wZ2xY5bXuu48Scu8kq&index=4), we can also use Github from within VSCode. 
 
-Now, open VSCode again. While we can push and pull code from Github from Git Bash and the command line in VSCode (more later), a easy way is to sync Github with VSCode. In order to do so, in the lower left corner go to "":
+Now, open VSCode again. While we can push and pull code from Github from Git Bash and the command line in VSCode (more later), a easy way is to sync Github with VSCode. In order to do so, in the lower left corner go to "Accounts" icon:
 
+![Alt text](../images/git_image_12.PNG)
 
+After which you click on "Sign in":
 
+![Alt text](../images/git_image_13.png)
 
+Select "Sign in with Github":
 
+![Alt text](../images/git_image_14.png)
 
+GitHub will ask for authorisation:
 
+![Alt text](../images/git_image_15.png)
 
+![Alt text](../images/git_image_16.png)
 
+You will be asked to open VSCode:
 
+![Alt text](../images/git_image_17.PNG)
 
+To see if this setup has worked, you should see in the lower left that the "Settings Sync is On" and that your Github profile is now added:
 
+![Alt text](../images/git_image_19.PNG)
 
+VSCode extensions are tools that you can plug in VSCode that help you interacting with programming languages (such as Pyton or other), help you writing better code such as linters, debuggers, etc (more later **TO ADD**) [source](https://code.visualstudio.com/docs/editor/extension-marketplace). An overview of the VS Code extensions can be found in the [VSCode market place](https://marketplace.visualstudio.com/vscode).
 
+Here, we will only install Git/Github related exentions and later on dive deeper into other Python or linting examples and give more detailed examples. To install extensions, you need to go to the "Extensions" tab at the left of the screen:
 
+![Alt text](../images/git_image_20.png)
+
+More information can be found on the [VS Code website "Introduction to Git in VS Code"](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git)

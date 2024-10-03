@@ -430,4 +430,25 @@ Here, we will only install Git/Github related exentions and later on dive deeper
 
 ![Alt text](../images/git_image_20.png)
 
+The following extensions are installed (following the [link](https://sites.google.com/utk.edu/geog-510/resources/software?authuser=0) of Professor Quisheng Wu). In order to explore this list a bit yourself, you can type in "Github" in the search bar:
+
+![Alt text](../images/git_image_21.PNG)
+
+And then click on any extension and read the description of it. The following extensions will be installed:
+
+- [Github Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github): Handles pull requests directly in VSCode. 
+- [GitLens](https://www.gitkraken.com/gitlens): This extension visual shows a timeline of your project’s history, visualises changes, etc. 
+
+In order to install an extension, you need to click on "Install":
+
+![Alt text](../images/git_image_22.png)
+
+Other extensions related to Github you may think about are:
+
+- [GitHub Copilot](https://docs.github.com/en/copilot): This is extension is not free (at the time of writing). This extension assists in writing code using Artificial Intelligence (AI). It may be possible that this is (still) free for students and teachers as per this [link](https://dev.to/twizelissa/how-to-enable-github-copilot-for-free-as-student-4kal).
+
+- - [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) - ChatGPT but for Copilot.
+
 More information can be found on the [VS Code website "Introduction to Git in VS Code"](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git)
+
+As mentioned, other Python extensions will be addressed in another chapter. 

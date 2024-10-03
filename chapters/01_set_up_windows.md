@@ -447,7 +447,7 @@ Other extensions related to Github you may think about are:
 
 - [GitHub Copilot](https://docs.github.com/en/copilot): This is extension is not free (at the time of writing). This extension assists in writing code using Artificial Intelligence (AI). It may be possible that this is (still) free for students and teachers as per this [link](https://dev.to/twizelissa/how-to-enable-github-copilot-for-free-as-student-4kal).
 
-- - [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) - ChatGPT but for Copilot.
+- [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) - ChatGPT but for Copilot.
 
 More information can be found on the [VS Code website "Introduction to Git in VS Code"](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git)
 

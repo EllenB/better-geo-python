@@ -508,6 +508,10 @@ Assume we want to change something and push it/update it to the Github repositor
 
 ![Alt text](../images/git_image_36.png)
 
+You should also see this directory now on your computer:
+
+![Alt text](../images/git_image_37.PNG)
+
 
 
 

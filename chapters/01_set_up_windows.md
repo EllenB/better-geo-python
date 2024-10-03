@@ -452,3 +452,70 @@ Other extensions related to Github you may think about are:
 More information can be found on the [VS Code website "Introduction to Git in VS Code"](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git)
 
 As mentioned, other Python extensions will be addressed in another chapter. 
+
+To test at a basic level how Github works, you can set up a project in Github. Go to your Github account and click on the "+" icon to create a new project:
+
+![Alt text](../images/git_image_23.png)
+
+You can name this repo anything you want. In the case here, it is called "testgeo2".
+
+You can either have a public or private repository. In the example below a public repository is chosen. You can also a README.md file. This file is like the "frontpage" of your repository where you can write a description, links to your code, etc. We can also select "gitignore". More later about this but as of now, choose Python from the list:
+
+![Alt text](../images/git_image_24.png)
+
+Next, you can also choose a license if you want (e.g. the MIT License). When finished, click on "Create repository":
+
+![Alt text](../images/git_image_26.png)
+
+You should see something like this:
+
+![Alt text](../images/git_image_27.png)
+
+
+Now open VSCode. If some file is open or folder is open, go to the menu and click on "File/Close folder". Your screen should look something like this:
+
+![Alt text](../images/git_image_28.PNG)
+
+Click on "Clone Git Repository":
+
+![Alt text](../images/git_image_29.png)
+
+Then, click on "Clone from Github":
+
+![Alt text](../images/git_image_30.png)
+
+You will see that the extension wants to sign in from Github:
+
+![Alt text](../images/git_image_31.PNG)
+
+You need to give some extra permissions to Github:
+
+![Alt text](../images/git_image_32.PNG)
+
+You may be prompted to open VSCode again. After which you should see all your repositories:
+
+![Alt text](../images/git_image_33.PNG)
+
+From which you can open the repository you just created. You will be asked where to store this repository and after you select your repository, click on "Select as Repository Destination":
+
+![Alt text](../images/git_image_34.PNG)
+
+You will be asked if you want to "Open the cloned repository" and you click "Open". And now you see that the cloned repository in VSCode:
+
+![Alt text](../images/git_image_34.PNG)
+
+Assume we want to change something and push it/update it to the Github repository. Open the README.md file by clicking on the file in the left:
+
+![Alt text](../images/git_image_36.png)
+
+
+
+
+
+
+
+
+
+
+
+

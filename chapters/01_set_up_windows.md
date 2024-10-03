@@ -394,7 +394,7 @@ And you see the something like this:
 
 If you now navigate to your directory, you should see that the content of the Github repository is downloaded on your local computer.
 
-![Alt text](../images/git_image_11.png)
+![Alt text](../images/git_image_11.PNG)
 
 Following the [YouTube lecture of Quisheng Wu](https://www.youtube.com/watch?v=DoiAux0XYfs&list=PLAxJ4-o7ZoPcD-6wZ2xY5bXuu48Scu8kq&index=4), we can also use Github from within VSCode. 
 

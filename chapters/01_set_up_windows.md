@@ -303,7 +303,7 @@ After which the following screen opens from which you have to select the **Comma
 
 This is just one way to create a virtual environment. Other options are: [Venv](https://docs.python.org/3/library/venv.html), [Virtualenv](https://virtualenv.pypa.io/en/latest/user_guide.html), [Pyenv](https://github.com/pyenv/pyenv) and [Poetry](https://python-poetry.org/docs/managing-environments/).    
 
-For a practical example of some of the different ways, please see the [YouTube video of Krish Naik](https://www.youtube.com/watch?v=bf7pCxj6mEg) (among others).
+An overview article can be found on the [website of Real Python](https://realpython.com/python-virtual-environments-a-primer/). For a practical example of some of the different ways, please see also the [YouTube video of Krish Naik](https://www.youtube.com/watch?v=bf7pCxj6mEg) (among others).
 
 In order to create the virtual environment, you can use the command (similar to what we had typed in before in the Anaconda command prompt):
 
@@ -318,6 +318,98 @@ Subsequently, you can use the same steps as the ones we have done above to insta
 
 ### Github 
 
+These steps and the settings follow the [YouTube videos of Professor Quisheng Wu](https://www.youtube.com/watch?v=9zmXL2ppves&list=PLAxJ4-o7ZoPcD-6wZ2xY5bXuu48Scu8kq&index=2):
+
 First you need to sign up for an account in Github. Navigate to the following website and sign up: https://github.com/
 
-Download git bash from this link: https://www.git-scm.com/downloads
+Download git bash from this link: https://www.git-scm.com/downloads and select the appropriate operating system:
+
+![Alt text](../images/git_image_01.PNG)
+
+And select the appropriate installation file (64 bit in my case):
+
+![Alt text](../images/git_image_02.PNG)
+
+Which downloads the file on your hard disk:
+
+![Alt text](../images/git_image_03.PNG)
+
+Double click on this and the installation will start. 
+
+In general, all the defaults can be accepted but there are a few suggestions. Since there is a nice integration between Github and VSCode, you can select "Using Visual Studio Code as Git's default editor" instead of using Vim as the default editor:
+
+![Alt text](../images/git_image_04.PNG)
+
+For the next steps, you can just accept the defaults after which the installation will start. When done, you can check the box "Launch Git Bash":
+
+![Alt text](../images/git_image_05.PNG)
+
+After which the Git Bash will open:
+
+![Alt text](../images/git_image_06.PNG)
+
+If Git Bash is open and you type **Git**, you should see the following output:
+
+ ![Alt text](../images/git_image_07.PNG)
+
+ The next step is to initialise Github. In order to do so, go to the Git Bash prompt and type:
+
+```
+git config --global user.name "Put your Your Name here (this does not need to be your userid)"
+```
+Next, type:
+```
+git config --global user.email "youremail@something.com"
+```
+To check if it has worked:
+
+```
+git config --global --list
+```
+You should see something like this:
+
+![Alt text](../images/git_image_08.PNG)
+
+To test this further, let us "copy" (or in "GitHub language" we call this "clone") any repository to your local computer. As an example, take the following repository: https://github.com/EllenB/testrepo
+
+In Git Bash, navigate to a local directory of your choise where you want to place the Github repository. E.g. in Windows the directory is: 'C:\Ellen\personal\projects\software\testrepo'
+
+Git Bash works like a Unix system so if you are going to type "cd 'C:\Ellen\personal\projects\software\testrepo" in Git Bash this will throw an error (as we cannot to use Unix syntax like this:
+
+```
+cd /c/Ellen/personal/projects/software
+```
+After which we go to [testrepo on Github](https://github.com/EllenB/testrepo) (which can be any GitHub repository of your choice) and copy the link under "HTPPS":
+
+![Alt text](../images/git_image_09.PNG)
+
+Back in Gitbash, type:
+
+```
+git clone https://github.com/EllenB/testrepo.git
+```
+And you see the something like this:
+
+![Alt text](../images/git_image_10.PNG)
+
+If you now navigate to your directory, you should see that the content of the Github repository is downloaded on your local computer.
+
+![Alt text](../images/git_image_10.PNG)
+
+Following the [YouTube lecture of Quisheng Wu](https://www.youtube.com/watch?v=DoiAux0XYfs&list=PLAxJ4-o7ZoPcD-6wZ2xY5bXuu48Scu8kq&index=4), we can also use Github from within VSCode. 
+
+Now, open VSCode again. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -394,11 +394,12 @@ And you see the something like this:
 
 If you now navigate to your directory, you should see that the content of the Github repository is downloaded on your local computer.
 
-![Alt text](../images/git_image_10.PNG)
+![Alt text](../images/git_image_11.png)
 
 Following the [YouTube lecture of Quisheng Wu](https://www.youtube.com/watch?v=DoiAux0XYfs&list=PLAxJ4-o7ZoPcD-6wZ2xY5bXuu48Scu8kq&index=4), we can also use Github from within VSCode. 
 
-Now, open VSCode again. 
+Now, open VSCode again. While we can push and pull code from Github from Git Bash and the command line in VSCode (more later), a easy way is to sync Github with VSCode. In order to do so, in the lower left corner go to "":
+
 
 
 

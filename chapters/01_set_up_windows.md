@@ -554,7 +554,7 @@ Before committing/pushing the code, you need to write a message which you have t
 
 The end result is that the Github repository is updated:
 
-![Alt text](../images/git_image_50.png)
+![Alt text](../images/git_image_50.PNG)
 
 
 

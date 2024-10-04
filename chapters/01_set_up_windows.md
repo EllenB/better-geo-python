@@ -512,6 +512,62 @@ You should also see this directory now on your computer:
 
 ![Alt text](../images/git_image_37.PNG)
 
+Added to this, you should also see a .git file. If you do not see it, you can either right click in this directory and click "View" and click on "Hidden files":
+
+![Alt text](../images/git_image_38.png)
+
+After which you will see the .git file:
+
+![Alt text](../images/git_image_39.png)
+
+This means that your file is being tracked!
+
+Let us bring a change in the file and upload the change in the Github repo. In order to do so. Open the README.md file by clicking on it:
+
+![Alt text](../images/git_image_40.png)
+
+And type anything text you want. As an example, type:
+
+``
+This is a test.
+```
+
+And save the file (either from the menu or by using Ctrl + C). On the left most bar, you should see on the icon that looks like a fork the number of changes you have done. Don't worry if this number is a bit different:
+
+![Alt text](../images/git_image_41.png)
+
+Click on it and you should see something like that:
+
+![Alt text](../images/git_image_42.PNG)
+
+If you click the README.md file once more, a window on the right opens up from which you see the before and after code where the green color shows what you have added:
+
+![Alt text](../images/git_image_43.png)
+
+Before the updated code gets pushed/committed to Github, we need to stage it first. "Staging" means that you have finished a part of the work and are ready to commit. You need to click on the "+" sign:
+
+![Alt text](../images/git_image_46.png)
+
+Before committing/pushing the code, you need to write a message which you have to do in the upper left where you see "commit". As an example, I put "first commit". After this you can click on "Commit" or use the shortcut key Ctrl + Enter. The first time, you do that some messages may be asked.
+
+The end result is that the Github repository is updated:
+
+![Alt text](../images/git_image_50.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

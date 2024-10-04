@@ -432,7 +432,7 @@ Here, we will only install Git/Github related exentions and later on dive deeper
 
 The following extensions are installed (following the [link](https://sites.google.com/utk.edu/geog-510/resources/software?authuser=0) of Professor Quisheng Wu). In order to explore this list a bit yourself, you can type in "Github" in the search bar:
 
-![Alt text](../images/git_image_21.PNG)
+![Alt text](../images/git_image_21.png)
 
 And then click on any extension and read the description of it. The following extensions will be installed:
 

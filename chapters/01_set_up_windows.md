@@ -558,7 +558,7 @@ Next, this will ask to "Sync the changes":
 
 After which you you may get the following message for which you need to click "OK":
 
-![Alt text](../images/git_image_49.png)
+![Alt text](../images/git_image_49.PNG)
 
 The end result is that the Github repository is updated:
 

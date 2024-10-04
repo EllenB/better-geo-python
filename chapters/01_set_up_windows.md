@@ -418,7 +418,7 @@ GitHub will ask for authorisation:
 
 You will be asked to open VSCode:
 
-![Alt text](../images/git_image_17.png)
+![Alt text](../images/git_image_17.PNG)
 
 To see if this setup has worked, you should see in the lower left that the "Settings Sync is On" and that your Github profile is now added:
 

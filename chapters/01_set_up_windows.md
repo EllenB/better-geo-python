@@ -400,11 +400,11 @@ Following the [YouTube lecture of Quisheng Wu](https://www.youtube.com/watch?v=D
 
 Now, open VSCode again. While we can push and pull code from Github from Git Bash, we can also do that from within VSCode. There are two ways of doing so in VSCode. One is from the command line (similar from where we create the Conda environment) and the other is by using an integration in VSCode itself (with the use of extensions and an extra setup). In order to do the latter, in the lower left corner go to the "Accounts" icon:
 
-![Alt text](../images/git_image_12.PNG)
+![Alt text](../images/git_image_12.png)
 
 After which you click on "Sign in":
 
-![Alt text](../images/git_image_13.PNG)
+![Alt text](../images/git_image_13.png)
 
 Select "Sign in with Github":
 

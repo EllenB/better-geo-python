@@ -498,7 +498,7 @@ You may be prompted to open VSCode again. After which you should see all your re
 
 From which you can open the repository you just created. You will be asked where to store this repository and after you select your repository, click on "Select as Repository Destination":
 
-![Alt text](../images/git_image_34.png)
+![Alt text](../images/git_image_34.PNG)
 
 You will be asked if you want to "Open the cloned repository" and you click "Open". And now you see that the cloned repository in VSCode:
 
@@ -542,7 +542,7 @@ Click on it and you should see something like that:
 
 If you click the README.md file once more, a window on the right opens up from which you see the before and after code where the green color shows what you have added:
 
-![Alt text](../images/git_image_43.PNG)
+![Alt text](../images/git_image_43.png)
 
 Before the updated code gets pushed/committed to Github, we need to stage it first. "Staging" means that you have finished a part of the work and are ready to commit. You need to click on the "+" sign:
 
@@ -554,7 +554,7 @@ Before committing/pushing the code, you need to write a message which you have t
 
 Next, this will ask to "Sync the changes":
 
-![Alt text](../images/git_image_48.png)
+![Alt text](../images/git_image_48.PNG)
 
 After which you you may get the following message for which you need to click "OK":
 

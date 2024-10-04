@@ -542,13 +542,15 @@ Click on it and you should see something like that:
 
 If you click the README.md file once more, a window on the right opens up from which you see the before and after code where the green color shows what you have added:
 
-![Alt text](../images/git_image_43.png)
+![Alt text](../images/git_image_43.PNG)
 
 Before the updated code gets pushed/committed to Github, we need to stage it first. "Staging" means that you have finished a part of the work and are ready to commit. You need to click on the "+" sign:
 
 ![Alt text](../images/git_image_46.png)
 
 Before committing/pushing the code, you need to write a message which you have to do in the upper left where you see "commit". As an example, I put "first commit". After this you can click on "Commit" or use the shortcut key Ctrl + Enter. The first time, you do that some messages may be asked.
+
+![Alt text](../images/git_image_47.png)
 
 The end result is that the Github repository is updated:
 

@@ -469,7 +469,7 @@ Next, you can also choose a license if you want (e.g. the MIT License). When fin
 
 You should see something like this:
 
-![Alt text](../images/git_image_27.png)
+![Alt text](../images/git_image_27.PNG)
 
 
 Now open VSCode. If some file is open or folder is open, go to the menu and click on "File/Close folder". Your screen should look something like this:

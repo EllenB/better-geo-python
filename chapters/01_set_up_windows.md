@@ -552,6 +552,14 @@ Before committing/pushing the code, you need to write a message which you have t
 
 ![Alt text](../images/git_image_47.png)
 
+Next, this will ask to "Sync the changes":
+
+![Alt text](../images/git_image_48.png)
+
+After which you you may get the following message for which you need to click "OK":
+
+![Alt text](../images/git_image_49.png)
+
 The end result is that the Github repository is updated:
 
 ![Alt text](../images/git_image_50.PNG)

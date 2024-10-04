@@ -398,13 +398,13 @@ If you now navigate to your directory, you should see that the content of the Gi
 
 Following the [YouTube lecture of Quisheng Wu](https://www.youtube.com/watch?v=DoiAux0XYfs&list=PLAxJ4-o7ZoPcD-6wZ2xY5bXuu48Scu8kq&index=4), we can also use Github from within VSCode. 
 
-Now, open VSCode again. While we can push and pull code from Github from Git Bash and the command line in VSCode (more later), a easy way is to sync Github with VSCode. In order to do so, in the lower left corner go to "Accounts" icon:
+Now, open VSCode again. While we can push and pull code from Github from Git Bash, we can also do that from within VSCode. There are two ways of doing so in VSCode. One is from the command line (similar from where we create the Conda environment) and the other is by using an integration in VSCode itself (with the use of extensions and an extra setup). In order to do the latter, in the lower left corner go to the "Accounts" icon:
 
 ![Alt text](../images/git_image_12.PNG)
 
 After which you click on "Sign in":
 
-![Alt text](../images/git_image_13.png)
+![Alt text](../images/git_image_13.PNG)
 
 Select "Sign in with Github":
 
@@ -418,7 +418,7 @@ GitHub will ask for authorisation:
 
 You will be asked to open VSCode:
 
-![Alt text](../images/git_image_17.PNG)
+![Alt text](../images/git_image_17.png)
 
 To see if this setup has worked, you should see in the lower left that the "Settings Sync is On" and that your Github profile is now added:
 
@@ -459,7 +459,7 @@ To test at a basic level how Github works, you can set up a project in Github. G
 
 You can name this repo anything you want. In the case here, it is called "testgeo2".
 
-You can either have a public or private repository. In the example below a public repository is chosen. You can also a README.md file. This file is like the "frontpage" of your repository where you can write a description, links to your code, etc. We can also select "gitignore". More later about this but as of now, choose Python from the list:
+You can either have a public or private repository. In the example below a public repository is chosen. You can also add a README.md file. This file is like the "frontpage" of your repository where you can write a description, links to your code, etc. We can also select "Add .gitignore". More later about this but as of now, choose Python from the list:
 
 ![Alt text](../images/git_image_24.png)
 
@@ -484,7 +484,7 @@ Then, click on "Clone from Github":
 
 ![Alt text](../images/git_image_30.png)
 
-You will see that the extension wants to sign in from Github:
+You will see that the extension wants to sign in using Github:
 
 ![Alt text](../images/git_image_31.PNG)
 
@@ -498,11 +498,11 @@ You may be prompted to open VSCode again. After which you should see all your re
 
 From which you can open the repository you just created. You will be asked where to store this repository and after you select your repository, click on "Select as Repository Destination":
 
-![Alt text](../images/git_image_34.PNG)
+![Alt text](../images/git_image_34.png)
 
 You will be asked if you want to "Open the cloned repository" and you click "Open". And now you see that the cloned repository in VSCode:
 
-![Alt text](../images/git_image_34.PNG)
+![Alt text](../images/git_image_35.PNG)
 
 Assume we want to change something and push it/update it to the Github repository. Open the README.md file by clicking on the file in the left:
 

@@ -512,7 +512,7 @@ You should also see this directory now on your computer:
 
 ![Alt text](../images/git_image_37.PNG)
 
-Added to this, you should also see a .git file. If you do not see it, you can either right click in this directory and click "View" and click on "Hidden files":
+Added to this, you should also see a .git file. If you do not see it, you can either right click in this directory and click "View" and click on "Hidden items":
 
 ![Alt text](../images/git_image_38.png)
 
@@ -520,7 +520,7 @@ After which you will see the .git file:
 
 ![Alt text](../images/git_image_39.png)
 
-This means that your file is being tracked!
+This means that your file is being tracked! At this point, you can again switch off the "Hidden items"
 
 Let us bring a change in the file and upload the change in the Github repo. In order to do so. Open the README.md file by clicking on it:
 

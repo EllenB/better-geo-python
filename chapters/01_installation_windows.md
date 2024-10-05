@@ -461,7 +461,7 @@ You can name this repo anything you want. In the case here, it is called "testge
 
 You can either have a public or private repository. In the example below a public repository is chosen. You can also add a README.md file. This file is like the "frontpage" of your repository where you can write a description, links to your code, etc. We can also select "Add .gitignore". More later about this but as of now, choose Python from the list:
 
-![Alt text](../images/git_image_24.png)
+![Alt text](../images/git_image_24.PNG)
 
 Next, you can also choose a license if you want (e.g. the MIT License). When finished, click on "Create repository":
 

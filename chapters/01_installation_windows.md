@@ -548,11 +548,11 @@ Before the updated code gets pushed/committed to Github, we need to stage it fir
 
 ![Alt text](../images/git_image_46.png)
 
-Before committing/pushing the code, you need to write a message which you have to do in the upper left where you see "commit". As an example, I put "first commit". After this you can click on "Commit" or use the shortcut key Ctrl + Enter. The first time, you do that some messages may be asked.
+Before committing/pushing the code, you need to write a message which you have to do in the upper left where you see "commit". As an example, "updated readme file" is written. After this you can click on "Commit" or use the shortcut key Ctrl + Enter. The first time, you do that some messages may be asked.
 
 ![Alt text](../images/git_image_47.png)
 
-Next, this will ask to "Sync the changes":
+Next, you need to click on "Sync the changes":
 
 ![Alt text](../images/git_image_48.PNG)
 

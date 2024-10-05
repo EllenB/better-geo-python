@@ -532,7 +532,7 @@ And type anything text you want. As an example, type:
 This is a test.
 ```
 
-And save the file (either from the menu or by using Ctrl + C). On the left most bar, you should see on the icon that looks like a fork the number of changes you have done. Don't worry if this number is a bit different:
+And save the file (either from the menu or by using Ctrl + S). On the left most bar, you should see on the icon that looks like a fork the number of changes you have done. Don't worry if this number is a bit different:
 
 ![Alt text](../images/git_image_41.png)
 
